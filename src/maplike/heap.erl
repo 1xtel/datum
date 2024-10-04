@@ -66,12 +66,12 @@
    remove/2
 ]).
 
--export_type([heap/0, rank/0]).
+%-export_type([heap/0, rank/0]).
 
--type heap()  :: datum:option({heap(), rank(), key(), val(), heap()}).
+%-type heap()  :: datum:option({heap(), rank(), key(), val(), heap()}).
 -type key()   :: _.
 -type val()   :: _.
--type rank()  :: integer().
+%-type rank()  :: integer().
 
 %%
 %% create new empty heap
